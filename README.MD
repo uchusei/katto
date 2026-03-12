@@ -1,8 +1,6 @@
 # pdfkatto
 
-Small Python CLI utility for common PDF page operations.
-
-Designed for simple workflows when working with print PDFs, scans, or page spreads.
+Small Python CLI utility for common PDF page operations. Designed for simple workflows when working with print PDFs, scans, or page spreads.
 
 ## Features
 
