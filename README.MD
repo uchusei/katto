@@ -12,29 +12,36 @@ Small Python CLI utility for common PDF page operations. Designed for simple wor
 
 - Python 3
 - PyMuPDF (`fitz`)
-- `pdf-crop-margins` (only needed for `crop`)
+- `pdf-crop-margins` (only needed for **crop**)
 
 ## Usage
 
 Place your PDF in the same folder as `pdfkatto.py`.
 
-Trim a print PDF to its TrimBox:
 
-python3 pdfkatto.py trim file.pdf
+**1. Trim a print PDF to its TrimBox:**
 
-Remove whitespace margins:
+```
+python3 pdfkatto.py trim doc.pdf
+```
 
-python3 pdfkatto.py crop file.pdf
+**2. Remove whitespace margins:**
 
-Split spreads into individual pages:
+```
+python3 pdfkatto.py crop doc.pdf
+```
 
-python3 pdfkatto.py split file.pdf
+**3. Split spreads into individual pages:**
+
+```
+python3 pdfkatto.py split doc.pdf
+```
 
 Output files are saved next to the input file:
 
-file_trim.pdf
-file_crop.pdf
-file_split.pdf
+doc_trim.pdf
+doc_crop.pdf
+doc_split.pdf
 
 ## When to use what
 
