@@ -38,7 +38,6 @@ python3 pdfkatto.py split doc.pdf
 ```
 
 Output files are saved next to the input file:
-
 doc_trim.pdf
 doc_crop.pdf
 doc_split.pdf
