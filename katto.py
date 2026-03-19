@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-pdfkatto
+katto
 
 Small utility script for common PDF page operations.
 
@@ -22,9 +22,9 @@ This script provides three commands:
 
 Example usage:
 
-    python3 pdfkatto.py trim book.pdf
-    python3 pdfkatto.py crop document.pdf
-    python3 pdfkatto.py split spreads.pdf
+    python3 katto.py trim book.pdf
+    python3 katto.py crop document.pdf
+    python3 katto.py split spreads.pdf
 
 Output files are saved next to the input file with suffixes:
     *_trim.pdf
@@ -154,7 +154,7 @@ def main():
     Parses command line arguments and calls the correct function.
     """
 
-    parser = argparse.ArgumentParser(prog="pdfkatto")
+    parser = argparse.ArgumentParser(prog="katto")
 
     sub = parser.add_subparsers(dest="cmd", required=True)
 
