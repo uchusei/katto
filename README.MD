@@ -58,3 +58,7 @@ Use for scanned PDFs or documents with large white margins.
 **split**
 
 Use when a PDF contains page spreads instead of individual pages.
+
+---
+
+© 2026 [WOWEN](https://wowen.se). All rights reserved.
